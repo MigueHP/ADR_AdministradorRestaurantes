@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>facturacion</class>
+ <widget class="QDialog" name="facturacion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1158</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>1131</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>160</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>RFC</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>RegimenFiscal</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID Orden</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Direccion Fiscal</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Concepto</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
